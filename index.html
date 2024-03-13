@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop Website</title>
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .common-button {
+            background-color: #c321b0;
+            border: none;
+            border-radius: 5px;
+            color: aliceblue;
+            font-weight: 900;
+            padding: 10px;
+        }
+
+        /* header section */
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f2c1ec;
+            padding: 50px 100px 0px;
+            gap: 200px;
+        }
+
+        header h1 {
+            color: #064d09;
+        }
+
+        header p {
+            text-align: justify;
+            color: #686868;
+        }
+
+        /* Our Feature Flowers */
+        #Our-Feature-Flower-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #Our-Feature-Flower-section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border: none;
+            border-radius: 150px 150px 0 0;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        #Our-Feature-Flower-section div a {
+            color: #0b0a0a;
+        }
+
+        /* Three-icon-Section */
+        #Three-icon-Section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            margin: 100px;
+            padding: 50px;
+            background-color: #dfe1e1;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #Three-icon-Section div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Hot-deal-section */
+        #Hot-deal-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            margin: 0;
+            padding: 30px 200px;
+            border: none;
+            background-color: #d4bad1;
+        }
+
+        #Hot-deal-section div p {
+            color: #686868;
+        }
+
+        /* instragram-section */
+        #instragram-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #instragram-section div img {
+            height: 230px;
+            width: 230px;
+        }
+
+       /* Get The Latest Deals */
+        #Get-The-Latest-Deals{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: auto;
+            margin: 125px;
+            border: none;
+            border-radius: 5px;
+            background-image: url("image/Rectangle-9.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+        #Get-The-Latest-Deals div input{
+            padding: 7px 30px;
+            border: none;
+            outline: 2px solid #c321b0;
+            outline-offset: 40%;
+            border-radius:3px;
+            margin-right: 10px;
+        }
+
+        /* Footer Section */
+        footer{
+            background-color: #171717;
+            text-align: center;
+            padding: 100px;
+        }
+        footer h1{
+            color: aliceblue;
+        }
+        footer p{
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Let's make beautiful flowers a part of your life.</h1>
+            <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vero, reiciendis error quia totam
+                    suscipit, ab tenetur deleniti ad nobis rerum optio quisquam doloremque fugit maiores aperiam.
+                    Perspiciatis, impedit eveniet.</small></p>
+            <button class="common-button">Shop Now</button>
+        </div>
+        <div>
+            <img src="Flower Asset/pngwing 6.png" alt="Sorry Not availiable">
+        </div>
+    </header>
+
+    <!-- Our Feature Flowers -->
+    <h2 style="text-align: center; margin-top: 50px;">Our Feature Flowers</h2>
+    <p style="text-align: center;">
+        <small>It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.
+        </small>
+    </p>
+    <section id="Our-Feature-Flower-section">
+        <div style="background-color: #d4bad1;">
+            <img height="300px" width="250px" src="Flower Asset/pngwing 10.png" alt="Sorry Not Availiable">
+            <a href="#">Pink Flower Tree</a>
+        </div>
+        <div style="background-color: #c7e7e8;">
+            <img height="300px" width="250px" src="Flower Asset/pngwing 5.png" alt="Sorry Not Availiable">
+            <a href="#">Pink Flower Tree</a>
+        </div>
+        <div style="background-color: #d1d4ba;">
+            <img height="300px" width="250px" src="Flower Asset/pngwing 7.png" alt="Sorry Not Availiable">
+            <a href="#">Pink Flower Tree</a>
+        </div>
+    </section>
+
+    <!-- Three icon section add -->
+    <section id="Three-icon-Section">
+        <div>
+            <img src="Flower Asset/Group 57.png" alt="">
+            <p><small>Same Day Delivery. Click &Collect.</small></p>
+        </div>
+        <div>
+            <img src="Flower Asset/Group 58.png" alt="">
+            <p><small>Same Day Delivery. Click &Collect.</small></p>
+        </div>
+        <div>
+            <img src="Flower Asset/Group 59.png" alt="">
+            <p><small>Same Day Delivery. Click &Collect.</small></p>
+        </div>
+    </section>
+
+    <!-- HOt Deal Section -->
+    <section id="Hot-deal-section">
+        <div style="text-align: center;">
+            <h2>Hot Deal ! Sale Up To 25% <span style="color: #f64923;">Off</span></h2>
+            <p style="text-align: justify;"><small>It is a long established fact that a reader will be distracted by the
+                    readable
+                    content of a page when looking at its layout</small></p>
+            <button class="common-button">Sign Up</button>
+        </div>
+        <div>
+            <img src="Flower Asset/pngwing 8.png" alt="">
+        </div>
+    </section>
+
+    <!-- Instragram Section -->
+    <h2 style="text-align: center; margin-top: 50px;">Instragram</h2>
+    <p style="text-align: center;">
+        <small>It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.
+        </small>
+    </p>
+    <section id="instragram-section">
+        <div>
+            <img src="Flower Asset/Flower 01.png" alt="">
+        </div>
+        <div>
+            <img src="Flower Asset/Rectangle 4.png" alt="">
+        </div>
+        <div>
+            <img src="Flower Asset/Rectangle 5.png" alt="">
+        </div>
+        <div>
+            <img src="Flower Asset/Rectangle 6.png" alt="">
+        </div>
+    </section>
+
+    <!-- Get The Latest Deals -->
+    <section id="Get-The-Latest-Deals">
+        <h2>Get The Latest Deals</h2>
+        <p style="text-align: center;"><small>$30 Coupon for first shoping</small></p>
+        <div>
+            <input type="email" placeholder="Enter your email">
+            <button class="common-button">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h1><span style="color: #c321b0;">Flower</span>Shop</h1>
+        <p><small>It is a long established fact that a reader will be distracted by the readable 
+            content of a page when looking at its layout</small></p>
+        <small style="color: #686868; font-size: xx-small;">@2020-2024, FlowerShop.com. All rights reserved.</small>
+    </footer>
+
+
+
+
+</body>
+
+</html>
