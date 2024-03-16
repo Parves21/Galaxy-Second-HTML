@@ -111,8 +111,8 @@
             width: 230px;
         }
 
-       /* Get The Latest Deals */
-        #Get-The-Latest-Deals{
+        /* Get The Latest Deals */
+        #Get-The-Latest-Deals {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -127,26 +127,127 @@
             background-size: contain;
 
         }
-        #Get-The-Latest-Deals div input{
+
+        #Get-The-Latest-Deals div {
+            text-align: center;
+        }
+
+        #Get-The-Latest-Deals div input {
             padding: 7px 30px;
             border: none;
             outline: 2px solid #c321b0;
             outline-offset: 40%;
-            border-radius:3px;
+            border-radius: 3px;
             margin-right: 10px;
         }
 
         /* Footer Section */
-        footer{
+        footer {
             background-color: #171717;
             text-align: center;
             padding: 100px;
         }
-        footer h1{
+
+        footer h1 {
             color: aliceblue;
         }
-        footer p{
+
+        footer p {
             color: aliceblue;
+        }
+
+
+        @media screen and (max-width: 576px) {
+
+            /* header section */
+            header {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                padding: 15px;
+                margin: 0 auto;
+            }
+
+            header div img {
+                width: 100%;
+            }
+
+            header p {
+                text-align: justify;
+            }
+
+            /* feature section */
+            #Our-Feature-Flower-section {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+                padding: 10px;
+                margin: 0 auto;
+            }
+
+            /* Three-icon-Section */
+            #Three-icon-Section {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+                padding: 40px;
+                margin: 10 auto;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Hot-deal-section */
+            #Hot-deal-section {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+                padding: 15px;
+                margin: 0 auto;
+            }
+
+            #Hot-deal-section div img {
+                width: 100%;
+            }
+
+            /* instragram-section */
+            #instragram-section {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+                padding: 20px;
+                margin: 0 auto;
+            }
+
+            #instragram-section div img {
+                width: 100%;
+            }
+
+            /* Get-The-Latest-Deals */
+            #Get-The-Latest-Deals {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 20px;
+                margin: 10px auto;
+                height: max-content;
+                border: none;
+                border-radius: 5px;
+                background-size:  cover;
+            }
+
+            #Get-The-Latest-Deals div h2 {
+                margin: 0;
+            }
+
+
+
         }
     </style>
 </head>
@@ -243,8 +344,10 @@
 
     <!-- Get The Latest Deals -->
     <section id="Get-The-Latest-Deals">
-        <h2>Get The Latest Deals</h2>
-        <p style="text-align: center;"><small>$30 Coupon for first shoping</small></p>
+        <div>
+            <h2>Get The Latest Deals</h2>
+            <p><small>$30 Coupon for first shoping</small></p>
+        </div>
         <div>
             <input type="email" placeholder="Enter your email">
             <button class="common-button">Subscribe</button>
@@ -254,8 +357,8 @@
     <!-- Footer Section -->
     <footer>
         <h1><span style="color: #c321b0;">Flower</span>Shop</h1>
-        <p><small>It is a long established fact that a reader will be distracted by the readable 
-            content of a page when looking at its layout</small></p>
+        <p><small>It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout</small></p>
         <small style="color: #686868; font-size: xx-small;">@2020-2024, FlowerShop.com. All rights reserved.</small>
     </footer>
 
